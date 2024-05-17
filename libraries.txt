@@ -1,0 +1,5 @@
+pip install pyperclip
+pip install tk
+pip install google
+pip install python-dotenv
+pip install grpcio
