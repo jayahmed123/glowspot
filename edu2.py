@@ -7,13 +7,8 @@ from dotenv import load_dotenv
 import os
 import google.generativeai as genai
 
-#os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "./glowspotter-bdd1dac35f3a.json"
-
-
-
-load_dotenv()
-
-API_KEY = os.getenv('API_KEY')
+# PLACE GEMINI API KEY IN SINGLE QUOTES
+API_KEY = 'YOUR_API_KEY'
 
 genai.configure(
     api_key=API_KEY
